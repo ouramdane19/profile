@@ -48,7 +48,7 @@ table{
 }
 
   .container{
-    width: 500px;
+    width: 800px;
     margin: 30px auto;
   }
   
@@ -64,22 +64,22 @@ table{
     border-radius: 50%;
     
   }
-  .img-profile {
+  .img-center {
       display: block;
       margin-left: auto;
       margin-right: auto;
       width:100px;
       height:100px;
-      border: 3px solid #cccccc;
   }
   .card-center,h1,h2,p{
     text-align: center;
 
   }
   
-  .list-inline > li {
-    display: inline-block;
-    padding: 0px 20px;
+  .list-inline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
   .btn-red{
     display: inline-block;
@@ -95,6 +95,16 @@ table{
   .btn-red:hover{
     background-color: darkred;
     color :white;
+  }
+  #sidebar {
+    position: fixed;
+    width: 300px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+  }
+  #page-content {
+    margin-left: 300px;
   }
   @media (max-width: 960px) {
     /* For a screen < 960px, this CSS will be read */

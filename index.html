@@ -12,9 +12,16 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>  
-        <div class="container">
+        <div id= "sidebar">
+            <ul>
+                <li><a href=""></a></li>
+                <li><a href="#my-favorite-movies">my favorite movies</a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </div>
+        <div class="container" >
             <div class="card card-center">
-                <img src="images/IMG_20190107_205410.jpg" alt="my_picture"  class ="img-circle img-profile"> 
+                <img src="images/IMG_20190107_205410.jpg" alt="my_picture"  class ="img-circle img-center"> 
                 <h1>Ouramdane Makhoukh</h1>
                 <h2>Programmer</h2>
                 <p>De formation ingénieur, je suis actuellment en formation pour devenir <strong>développeur FullStack</strong></p>
@@ -40,6 +47,7 @@
             </div>
             
             <div class="card">
+                <h3 id= "my-favorite-movies" >My favorite movies </h3>
                 <table>
                     <tr>
                         <td><img src="images/last_samourai_small.jpg" alt=" title_of_movie_samourai" style="width:200px;height:200px;" ></td>
@@ -84,7 +92,7 @@
                             <h2>About this page</h2>
                             This page has been coded during the <a href="https://lewagon.com/program" target="_blank">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.
                         
-                            <ul>
+                            <ul class ="list-inline">
                              <li>
                                <a href="#">
                                  <i class="fa fa-heart"></i>
